@@ -5,7 +5,7 @@ import seaborn as sns
 sns.set()
 
 
-st.title('California Housing Data(1990)')
+st.title('California Housing Data(1990) by Han Cai')
 df = pd.read_csv('housing.csv')
 
 # note that you have to use 0.0 and 40.0 given that the data type of population is float
